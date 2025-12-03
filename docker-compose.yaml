@@ -1,6 +1,7 @@
 services:
   express-app:
     image: kellylino/express-app:latest
+    platform: linux/amd64
     container_name: express-app
     ports:
       - "3000:8080"
